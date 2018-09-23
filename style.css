@@ -15,6 +15,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.search-box {
+	height: 40px;
+	width: 600px;
+	font-size:14pt;
+	margin-bottom:10px;
+}
 .ltl a {
 	float: left;
 	padding: 15px;
@@ -62,15 +68,27 @@ a:hover {
 	border: 5px;
 	border-color: #808080
 }
-ul {
-	list-style-type: none;
+.lbl {
 	position: fixed;
 	bottom: 0;
-	width: 100%;
+	left: 0;
+	width: 50%;
 	background-color: #f2f2f2;
 }
-li  {
-	display: inline;
-	padding: 15px;
+.lbr {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 50%;
+	background-color: #f2f2f2;
 }
-
+.lbl a {
+	float: left;
+	padding: 15px;
+	color: #666666;
+}
+.lbr a {
+	float: right;
+	padding: 15px;
+	color: #666666;
+}
